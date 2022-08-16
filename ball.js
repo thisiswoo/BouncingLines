@@ -26,7 +26,7 @@ export class Ball {
     }
     ctx.fillStyle = '#ffdd1c';
     ctx.beginPath();
-    ctx.arc(this.x, this.y, this.radius, 0, PI2)
+    ctx.arc(this.x, this.y, this.radius, 0, PI2);
     ctx.fill();
   }
 }
